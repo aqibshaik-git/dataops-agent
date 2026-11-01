@@ -1,0 +1,14 @@
+# Model and prices for the agent. Check current prices on Anthropic's pricing page
+# (https://docs.claude.com) before trusting the cost numbers; they change.
+
+[model]
+name = "claude-haiku-5-5"
+max_tokens = 1024
+
+# USD per million tokens. Prompts over the threshold are billed at the long rates.
+[pricing.claude-haiku-5-5]
+input_per_mtok = 0.10
+output_per_mtok = 0.50
+long_context_threshold = 100000
+long_input_per_mtok = 0.50
+long_output_per_mtok = 2.50

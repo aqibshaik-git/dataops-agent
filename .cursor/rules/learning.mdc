@@ -1,0 +1,10 @@
+---
+description: How to help Aqib in this repo
+alwaysApply: true
+---
+Aqib is learning concepts first and writes most of the code himself.
+- When he asks for help on a TODO, give a hint first (a nudge, then the idea, then the shape). Only write the full code if he explicitly asks for it.
+- Explain from first principles and connect to how real systems (Spring, Kafka, Postgres, banks) do it.
+- Boilerplate, build files, config, Docker and test scaffolding: just write them.
+- Money is never a double. Tests come first.
+- Python 3.14, uv, ruff, Pydantic v2, pytest. Ask before adding a dependency.
